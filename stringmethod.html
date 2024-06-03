@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String method in array</title>
+</head>
+<body>
+    <script>
+        let user = "How are you ???"
+        document.write("this is the method in which length is count in sentence <br>");
+        document.write(user.length,"<br><br >");
+
+
+        let usera ="ebadfAaa";
+        result = usera.toUpperCase();
+        document.write("THIS IS THE CASE IN WHICH WE GAVE THE VALUE IN SMALL AND THIS CASE CONVERTS IN THE UPPER CASE <br>");
+        document.write(result,"<br><br>");
+
+        let useraa ="EBDS";
+        results = useraa.toLowerCase();
+        document.write("THIS IS THE CASE IN WHICH WE GAVE THE VALUE IN BIG AND THIS CASE CONVERTS IN THE LOWER CASE <br> ");
+        document.write(results,"<br><BR>");
+
+        let num = "BILAL sidiqque";
+        resulta = num.includes("B");
+        document.write("THIS IS THE METHOD IN WHICH ITS CHECK THE CONDITION THAT THE WORD IS GIVEN UP IS TRUE OR FALSE <br>");
+        document.write(resulta,"<br><br >");
+
+        let numa = "HI THIS IS ME ";
+        resultss = numa.startsWith("HI");
+        document.write("THIS IS THE METHOD IN WHICH ITS CHECK THE STARTING WORDS IF THEY MATCH ITS ANS TRUE LESE FALSE<br>");
+        document.write(resultss,"<br><br>");
+        
+        let numas = "HI THIS IS ME ";
+        resultssa =numas.endsWith("3");
+        document.write("THIS IS THE METHOD IN WHICH ITS CHECK THE ENDING WORDS IF THEY MATCH ITS ANS TRUE LESE FALSE<br>");
+        document.write(resultssa,"<br> <BR>");
+
+        let ebads = "hi is this you";
+        fails = ebads.search("h");
+        document.write("THIS IS THE METHOD IN WHICH ITS SHOWS THE INDEX THE NUMBER OF ELEMENT <BR> ");
+        document.write(fails,"<br><br>"); 
+
+        let ebadsa = "hi is this you";
+        failss = ebadsa.match("h");
+        document.write("THIS IS THE METHOD IN WHICH ITS MATCH THE VALUE IF THE VALUE IS THERE ITY WILL DISPLY ELSE IT WILL GICE NULL <BR> ");
+        document.write(failss,"<br> <br>"); 
+
+        let hammad = "what ate you doing";
+        document.write("THIS IS THE METHOD IN WHICH ITS SHOW THE INDEX NUMBNER OF ALPHABET <br> ");
+        mama = hammad.indexOf("g");
+        document.write(mama,"<br> <br>");
+
+        let sami = "         Hi this is me ";
+        baba = sami.trim();
+        document.write("THIS IS THE METHOD IN WHICH ITS REMOVE THE EXTRA METHODS FROM STARING AND ENDING <br>");
+        document.write(`${sami.length} and ${baba.length} <br><br>`);
+
+        let zia = "lao bhai kya kr rha ";
+        chacha = zia.charAt(4);
+        document.write("THIS IS THE METHOD IN WHICH ITS SHOW THW ALPHABET BY CHECKING INDEX NUMBER <br>");
+        document.write(chacha,`<br> <br>`);
+
+    
+
+        let firstname = "Ebad";
+        let lastname = "ur rehman";
+        
+        let fullname = firstname.concat(lastname);
+        document.write("THIS IS THE METHOD IN WHICH ITS GIVE THE ANS IN COMBINE <br>");
+        document.write(fullname ,`<br> <br>`);
+
+        let txt = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ea nam quas! Sapiente, architecto nobis.";
+        document.write("THIS IS THE METHOD IN WHICH WE BREAK THE STATEMENT AND COMES COMA THERE <br>");
+        result = nani = txt.split(" ");
+        document.write(nani,`<br> <br>`);
+
+        let txta =  document.write("THIS IS THE METHODs" );
+        document.write("THIS IS THE METHOD IN WHICH WE GAVE THE VALUE  THAT WHAT WE WANT TO PRINT AND AT THE WE CAN GIVE .. IT IS USERD WHEN THERE IS NUMBER OF LIMITS ARE GIVEN <br>");
+        result = nana = txt.slice(0,6);
+        document.write(nana +".....",`<br> <br>`);
+
+        
+        
+        
+        function inc(){
+            console.log("Woirking")
+
+        }
+
+        function trm(){
+            console.log("Woirking")
+        }
+
+        function chr(){
+            console.log("Woirking")
+        }
+ 
+        
+
+
+
+
+
+
+
+    </script>
+    
+    <center>
+        <button onclick="inc()">include</button>
+        <button onclick="trm()">trim</button>
+        <button onclick="chr()">char</button>
+    </center>
+</body>
+</html>
